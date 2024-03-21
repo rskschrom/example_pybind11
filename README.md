@@ -2,8 +2,8 @@
 
 # Installation:
 
-Install the package using
-```pip install -r requirements.txt```
-```pip install .```
+Install the package using   
+```pip install -r requirements.txt```   
+```pip install .```   
 
 Cmake is required to build the C++ code.
