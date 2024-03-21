@@ -15,10 +15,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build wheels
         uses: pypa/cibuildwheel@v2.17.0
-        with:
-          name: Install dependencies
-            run:|
-              pip install -r requirements.txt
         # env:
         #   CIBW_SOME_OPTION: value
         #    ...
